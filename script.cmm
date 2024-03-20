@@ -1,0 +1,21 @@
+r tex.obj {data=title}:Explorera
+outline_btn:S:\ [start]
+  click:double=open {dev-type}
+  img:hsvf://sys-icon-drive
+create=data.fgl
+  set-data.fgl=rrs per {permissions}
+ set permissions admin=BubbuDert
+  set permissions user data=fullcontrol=false view=true createfiles=false
+  set permissions admin data=fullcontrol=true view=true createfiles=true
+[end]
+{qvx-domain=RSX57}
+{qvx-domain=CVB01}
+{qvx-domain=SLD15}
+{qvx-domain=CMD84}
+display-api.type=explorer.exe
+iframe-api.remove=background
+slider-api.ifslided:change=icons-size
+commands-api.outline-btn:Commands [start]
+display-api.type=vsfcmd.exe
+  [end]
+  locate:vsfcmd.exe=S:\xfiles\explorer\vsfcmd.exe
