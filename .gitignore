@@ -1,5 +1,6 @@
-# Prerequisites
-*.d
+# Script files
+*.cmm
+*.cpp
 
 # Compiled Object files
 *.slo
