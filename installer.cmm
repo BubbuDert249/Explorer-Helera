@@ -1,2 +1,7 @@
 r tex.obj:Downloading {filename}
-r tex.obj:S:\
+r tex.obj:S:\xfiles\explorer\{filename}
+downloadfrom=x.heleradata.com/explorera/data.zip
+finished?:outline_btn=Finish [start]
+close?=installer.cmm
+open?=script.cmm
+[end]
